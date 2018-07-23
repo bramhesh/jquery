@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.heading{
+	background: gray;
+	padding: 1vh;
+	border-style: double;
+	text-align: center;
+
+}
+
+.no-focus{
+	color: white;	
+}
+
+.focus{
+	color: burlywood;
+}
+
+.heading a{
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.matter1{
+	padding: 1vh;
+	margin: 1vh;
+	border-style: solid;
+}
+
+.matter2{
+	padding: 1vh;
+	margin: 1vh;
+	border-style: solid;
+}
+
+.matter3{
+	padding: 1vh;
+	margin: 1vh;
+	border-style: solid;
+}
+
+.no-display{
+	display: none;
+}
+
+.display{
+	display: block;
+}

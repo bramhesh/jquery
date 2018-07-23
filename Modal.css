@@ -1,0 +1,89 @@
+.container{
+	padding: 5vh;
+	margin: 5vh;
+}
+
+#modal-button{
+	height: 5vh;
+	width: 8vw;
+	color: azure;
+	background-color: cornflowerblue;	
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.modal-header{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1rem;
+    background-color: #2433e2;
+    color: white;
+}
+
+.close{
+	color: white;
+    height: fit-content;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-body{
+	padding: 2px 16px;
+}
+
+.modal-footer{
+	display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: #2433e2;
+    color: white;
+}
+
+.btn {
+    border: none;
+    border-radius: 12px;  
+    color: white; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+}
+
+.btnCloseBtn {
+    border: none;
+    border-radius: 12px;  
+    color: white; 
+    padding: 10px 15px; 
+    cursor: pointer;
+    background-color: #a8a8a8;
+} 
+
+.btnSave {
+    border: none;
+    border-radius: 12px;  
+    color: white; 
+    padding: 10px 15px; 
+    cursor: pointer;
+    background-color: #4CAF50;
+    margin-left: 5px;
+} 
